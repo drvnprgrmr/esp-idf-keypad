@@ -3,8 +3,8 @@ license: "MIT"
 
 description: "This is an ESP-IDF component meant to be a re-implementation of the popular Keypad library for Arduino"
 
-url: "https://github.com/drvnpgrmr/esp-idf-keypad"
-issues: "https://github.com/drvnpgrmr/esp-idf-keypad/issues"
+url: "https://github.com/drvnprgrmr/esp-idf-keypad"
+issues: "https://github.com/drvnprgrmr/esp-idf-keypad/issues"
 
 dependencies:
   idf: ">=5.5"
