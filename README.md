@@ -1,4 +1,7 @@
 # ESP-IDF Keypad Component
+[![Component Registry](https://components.espressif.com/components/drvnprgrmr/esp-idf-keypad/badge.svg)](https://components.espressif.com/components/drvnprgrmr/esp-idf-keypad)
+
+
 
 A lightweight, configurable **matrix keypad driver** for ESP-IDF.  
 Supports key scanning, debouncing, press/hold detection, and buffering with FreeRTOS queues.  
@@ -23,7 +26,7 @@ Works with any keypad size (rows × columns) via a C++ template API.
 Add the component to your ESP-IDF project:
 
 ```bash
-idf.py add-dependency "your_github_user/keypad^1.0.0"
+idf.py add-dependency "drvnprgrmr/keypad^1.0.0"
 ```
 or add manually to components/ folder.
 
